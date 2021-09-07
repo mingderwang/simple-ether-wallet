@@ -1,0 +1,16 @@
+modules:
+  macro:
+    - key: x-etherspot-forge-hello-world
+      resource: main
+      resolver:
+        function: resolver
+      title: x-etherspot-forge
+      description: Inserts Hello world!
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  id: ari:cloud:ecosystem::app/84cef70c-684e-4aec-b0b7-ad8ddde25bba
