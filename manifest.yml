@@ -14,3 +14,8 @@ resources:
     path: static/hello-world/build
 app:
   id: ari:cloud:ecosystem::app/84cef70c-684e-4aec-b0b7-ad8ddde25bba
+permissions:
+  external:
+    fetch:
+      backend:
+        - 'https://etherspot.pillarproject.io/'

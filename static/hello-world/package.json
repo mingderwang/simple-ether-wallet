@@ -6,10 +6,15 @@
   "dependencies": {
     "@atlaskit/css-reset": "^6.0.1",
     "@forge/bridge": "^1.5.0",
+    "bufferutil": "^4.0.3",
     "elliptic": "^6.5.4",
+    "ethers": "^5.4.6",
+    "etherspot": "^1.16.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
