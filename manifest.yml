@@ -17,5 +17,5 @@ app:
 permissions:
   external:
     fetch:
-      backend:
-        - 'https://etherspot.pillarproject.io/'
+      client:
+        - '*.pillarproject.io'
