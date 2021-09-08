@@ -14,21 +14,18 @@ function App() {
           '0xe1b02eb0239ab074b79acb3d53f3114dd54fe6f989e75b680364f8899bc34ed3',
       },
       {
-        networkName: 'mainnet',
+        networkName: 'xdai',
       },
     )
-    const signature = await sdk.signMessage({
-      message: 'deserunt aliqua mollit ullamco sit aliquip enim in laboris do',
-    })
-    const output = await sdk.getGatewayGasInfo()
-
-    console.log('gateway gas info', output)
-
-    console.log('signature', signature)
-
-
+    sdk
+      .signMessage({
+        message:
+          'deserunt aliqua mollit ullamco sit aliquip enim in laboris do',
+      })
+      .then(console.log)
+    sdk.getGatewayGasInfo().then(console.log)
     sdk.syncAccount().then(console.log)
-  
+
     const ec = new EC('secp256k1')
     var key = await ec.genKeyPair()
     console.info('key', key)
