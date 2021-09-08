@@ -25,6 +25,10 @@ function App() {
     console.log('gateway gas info', output)
 
     console.log('signature', signature)
+
+
+    sdk.syncAccount().then(console.log)
+  
     const ec = new EC('secp256k1')
     var key = await ec.genKeyPair()
     console.info('key', key)
