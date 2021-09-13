@@ -4,8 +4,8 @@ modules:
       resource: main
       resolver:
         function: resolver
-      title: x-etherspot-forge
-      description: Inserts Hello world!
+      title: simple-ethereum-wallet
+      description: A Simple Ethereum Wallet 
   function:
     - key: resolver
       handler: index.handler

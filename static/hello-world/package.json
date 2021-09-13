@@ -16,7 +16,7 @@
     "react-scripts": "3.4.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.3.0",
-    "superxerox2-contract": "NFTaftermarket/superxerox2"
+    "etherspot-react-wallet": "etherspot-react-wallet"
   },
   "scripts": {
     "start": "react-scripts start",
